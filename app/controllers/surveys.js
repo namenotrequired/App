@@ -8,7 +8,6 @@
 var log = require('utils/log'),
     date = require('utils/date');
 
-
 _.extend($, {
     /**
      * @constructor
@@ -106,10 +105,10 @@ function compassEventHandler (evt) {
     }, 1000);
 }
 
-
-
+/**
+ * @method doClickStartSurvey
+ */
 function doClickStartSurvey () {
-    console.log('Start Survey');
     Alloy.createController('surveys/team');
 }
 
@@ -124,8 +123,10 @@ function doClickStartGuide () {
     Alloy.Globals.menu.activateItem('menuItemGuide');
 }
 
+/**
+ * Testing drawer menu
+ */
 function doClickCompass () {
-    console.log('******* Start compass');
     Alloy.Globals.drawer.toggleRightWindow();
 }
 

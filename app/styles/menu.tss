@@ -1,5 +1,11 @@
 "Window": {
-    backgroundColor: '#424242'
+    backgroundColor: '#008A99'
+}
+
+".status": {
+    height: 20,
+    top: 0,
+    backgroundColor: '#202121'
 }
 
 "ScrollView": {
@@ -16,7 +22,14 @@
     height: 60
 }
 
+".menuIcon": {
+    left: 20,
+    width: 27,
+    height: 27
+}
+
 ".menuItemLabel": {
+    left: 70,
     color: '#fff'
 }
 
@@ -24,18 +37,42 @@
     text: L('menu.surveys'),
 }
 
+"#menuIconSurveys": {
+    image: '/images/navigation/surveys.png'
+}
+
 "#menuProfiles": {
     text: L('menu.profiles'),
+}
+
+"#menuIconProfiles": {
+    image: '/images/navigation/profile.png'
 }
 
 "#menuGuide": {
     text: L('menu.guide'),
 }
 
+"#menuIconGuide": {
+    image: '/images/navigation/guide.png'
+}
+
 "#menuSettings": {
     text: L('menu.settings'),
 }
 
+"#menuIconSettings": {
+    image: '/images/navigation/settings.png'
+}
+
 "#menuMore": {
     text: L('menu.more'),
+}
+
+"#menuIconMore": {
+    image: '/images/navigation/more.png'
+}
+
+".madeBy": {
+    height: Ti.UI.SIZE
 }

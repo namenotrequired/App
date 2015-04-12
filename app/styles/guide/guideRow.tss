@@ -1,0 +1,16 @@
+"TableViewRow": {
+    height: 60,
+    hasChild: true
+}
+
+"#label": {
+    left: 15,
+    color: Alloy.CFG.design.colors.defaultBlue
+}
+
+".divider": {
+    bottom: 0,
+    height: 2,
+    backgroundColor: '#F2F2F2',
+    zIndex: 99
+}

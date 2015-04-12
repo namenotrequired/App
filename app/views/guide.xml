@@ -3,5 +3,7 @@
          <View class="header">
             <Label class="headerTitle" />
         </View>
+
+        <TableView id="guideTableView" onClick="onClickTableView" />
     </Window>
 </Alloy>

@@ -33,7 +33,7 @@
                 <key>UIStatusBarHidden</key>
                 <false/>
                 <key>UIStatusBarStyle</key>
-                <string>UIStatusBarStyleDefault</string>
+                <string>UIStatusBarStyleLightContent</string>
                 <key>NSLocationAlwaysUsageDescription</key>
                 <string>
                     In Order to record start and ending vessel positions as well as debree we require gps access.

@@ -5,6 +5,6 @@
 "#drawer": {
     openDrawerGestureMode: "OPEN_MODE_ALL",
     closeDrawerGestureMode: "CLOSE_MODE_ALL",
-    rightDrawerWidth: 240
+    leftDrawerWidth: 240
 }
 

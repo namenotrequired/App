@@ -21,6 +21,11 @@
      <string name="profiles.newProfile.close">Close</string>
     <!-- Profiles -->
     <string name="guide.title">GUIDE</string>
+    <string name="guide.back">back</string>
+    <string name="guide.prepareForSurvey">Preparing for a survey</string>
+    <string name="guide.startingASurvey">Starting a survey</string>
+    <string name="guide.enterAnSpotter">Enter a spotter</string>
+    <string name="guide.howToReportFeedback">How to report feeback</string>
     <!-- Settings -->
     <string name="settings.title">SETTINGS</string>
     <string name="settings.highContrast">Switch to high contrast:</string>

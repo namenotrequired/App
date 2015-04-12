@@ -1,0 +1,12 @@
+<Alloy>
+    <Window id="more">
+         <View class="header">
+            <Label class="headerTitle" />
+            <View id="backButton" onClick="onClickBackButton">
+                <Label id="headerBack" />
+            </View>
+        </View>
+
+        <ScrollView id="content" />
+    </Window>
+</Alloy>

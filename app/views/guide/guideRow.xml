@@ -1,0 +1,6 @@
+<Alloy>
+    <TableViewRow>
+        <Label id="label" />
+        <View class="divider" />
+    </TableViewRow>
+</Alloy>

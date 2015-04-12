@@ -37,5 +37,5 @@
 ".divider": {
     top: 15,
     height: 2,
-    backgroundColor: 'rgba(0,0,0,.05)'
+    backgroundColor: '#F2F2F2'
 }

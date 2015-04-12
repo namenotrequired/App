@@ -17,8 +17,8 @@ _.extend($, {
      */
     construct: function(config) {
         // Set surveys to active by default
-        $.menuItemSurveys.backgroundColor = Alloy.CFG.design.colors.defaultBlue;
         activeItem = 'menuItemSurveys';
+        activateItem('menuItemSurveys');
     },
 
     /**
@@ -38,7 +38,7 @@ function onClickSurveys (evt) {
     if (activeItem !== 'menuItemSurveys') {
         var surveys = Alloy.createController('surveys').getView();
         Alloy.Globals.navigationWindow.openWindow(surveys, {animated: false});
-        Alloy.Globals.drawer.toggleRightWindow();
+        Alloy.Globals.drawer.toggleLeftWindow();
         activateItem('menuItemSurveys');
     }
 }
@@ -52,7 +52,7 @@ function onClickProfiles (evt) {
     if (activeItem !== 'menuItemProfiles') {
         var profiles = Alloy.createController('profiles').getView();
         Alloy.Globals.navigationWindow.openWindow(profiles, {animated: false});
-        Alloy.Globals.drawer.toggleRightWindow();
+        Alloy.Globals.drawer.toggleLeftWindow();
         activateItem('menuItemProfiles');
     }
 }
@@ -66,7 +66,7 @@ function onClickGuide (evt) {
     if (activeItem !== 'menuItemGuide') {
         var guide = Alloy.createController('guide').getView();
         Alloy.Globals.navigationWindow.openWindow(guide, {animated: false});
-        Alloy.Globals.drawer.toggleRightWindow();
+        Alloy.Globals.drawer.toggleLeftWindow();
         activateItem('menuItemGuide');
     }
 }
@@ -80,7 +80,7 @@ function onClickSettings (evt) {
     if (activeItem !== 'menuItemSettings') {
         var settings = Alloy.createController('settings').getView();
         Alloy.Globals.navigationWindow.openWindow(settings, {animated: false});
-        Alloy.Globals.drawer.toggleRightWindow();
+        Alloy.Globals.drawer.toggleLeftWindow();
         activateItem('menuItemSettings');
     }
 }
@@ -94,7 +94,7 @@ function onClickMore (evt) {
     if (activeItem !== 'menuItemMore') {
         var more = Alloy.createController('more').getView();
         Alloy.Globals.navigationWindow.openWindow(more, {animated: false});
-        Alloy.Globals.drawer.toggleRightWindow();
+        Alloy.Globals.drawer.toggleLeftWindow();
         activateItem('menuItemMore');
     }
 }
@@ -106,7 +106,7 @@ function onClickMore (evt) {
  */
 function activateItem (menuItem) {
     $[activeItem].backgroundColor = 'transparent';
-    $[menuItem].backgroundColor = Alloy.CFG.design.colors.defaultBlue;
+    $[menuItem].backgroundColor = '#006A76';
     activeItem = menuItem;
 }
 

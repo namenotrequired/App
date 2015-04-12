@@ -1,5 +1,7 @@
 "Window[platform=ios]": {
-    navBarHidden: true
+    navBarHidden: true,
+    extendEdges: [Ti.UI.EXTEND_EDGE_NONE],
+    statusBarStyle: Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT,
 }
 
 "Window": {

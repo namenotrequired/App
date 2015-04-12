@@ -13,3 +13,12 @@
     },
     color: Alloy.CFG.design.header.fontColor
 }
+
+"#guideTableView": {
+    height: Ti.UI.FILL,
+    top: 60
+}
+
+"#guideTableView[platform=ios]": {
+    separatorStyle: Titanium.UI.iPhone.TableViewSeparatorStyle.NONE,
+}
