@@ -110,3 +110,5 @@ function activateItem (menuItem) {
     activeItem = menuItem;
 }
 
+// Exports
+exports.activateItem = activateItem;

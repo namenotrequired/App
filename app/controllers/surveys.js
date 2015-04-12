@@ -2,8 +2,8 @@
  * Controller for Settings
  *
  * @class Controllers.settings
- * @uses utils.log
- * @uses utils.date
+ * @uses Utils.log
+ * @uses Utils.date
  */
 var log = require('utils/log'),
     date = require('utils/date');
@@ -31,7 +31,10 @@ _.extend($, {
     }
 });
 
-
+/**
+ * [populateWindow description]
+ * @return {[type]} [description]
+ */
 function populateWindow () {
     if (!Ti.Geolocation.locationServicesEnabled) {
 
@@ -110,8 +113,15 @@ function doClickStartSurvey () {
     Alloy.createController('surveys/team');
 }
 
+/**
+ * @method doClickStartGuide
+ * Handle `click` on #StartGuide button, create guide controller
+ * @return {[type]} [description]
+ */
 function doClickStartGuide () {
-
+    var guide = Alloy.createController('guide').getView();
+    Alloy.Globals.navigationWindow.openWindow(guide, {animated: false});
+    Alloy.Globals.menu.activateItem('menuItemGuide');
 }
 
 function doClickCompass () {

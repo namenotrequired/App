@@ -16,6 +16,7 @@ _.extend($, {
     construct: function(config) {
         Alloy.Globals.drawer = $.drawer;
         Alloy.Globals.navigationWindow = $.navigationWindow;
+        Alloy.Globals.menu = $.menu;
         $.drawer.open();
     },
 

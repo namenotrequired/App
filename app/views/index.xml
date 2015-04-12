@@ -9,7 +9,7 @@
             <Require src="surveys" />
         </View>
 
-        <Require src="menu" />
+        <Require src="menu" id="menu" />
 
     </Widget>
 </Alloy>
