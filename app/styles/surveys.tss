@@ -1,0 +1,112 @@
+".header": {
+    height: 200,
+    backgroundColor: Alloy.CFG.design.header.backgroundColor,
+    top: 0
+}
+
+".headerWelcomeTitle": {
+    text: L('surveys.welcomeTitle'),
+    top: 30,
+    left: 20,
+    font: {
+        fontWeight: 'bold',
+    },
+    color: Alloy.CFG.design.header.fontColor
+}
+
+".headerCurrentLocationTitle": {
+    text: L('surveys.currentLocationTitle'),
+    top: 110,
+    left: 20,
+    font: {
+        fontSize: 12,
+    },
+    color: Alloy.CFG.design.header.fontColor
+}
+
+"#headerCurrentLocation": {
+    top: 110,
+    right: 20,
+    font: {
+        fontSize: 14,
+        fontWeight: 'bold'
+    },
+    color: Alloy.CFG.design.header.fontColor
+}
+
+".headerCurrentSpeedTitle": {
+    text: L('surveys.currentSpeed'),
+    top: 130,
+    left: 20,
+    font: {
+        fontSize: 12
+    },
+    color: Alloy.CFG.design.header.fontColor
+}
+
+"#headerCurrentSpeed": {
+    top: 130,
+    right: 20,
+    font: {
+        fontSize: 14,
+        fontWeight: 'bold'
+    },
+    color: Alloy.CFG.design.header.fontColor
+}
+
+
+".headerCurrentTimeTitle": {
+    text: L('surveys.currentTime'),
+    top: 150,
+    left: 20,
+    font: {
+        fontSize: 12,
+    },
+    color: Alloy.CFG.design.header.fontColor
+}
+
+"#headerCurrentTime": {
+    top: 150,
+    right: 20,
+    font: {
+        fontSize: 14,
+        fontWeight: 'bold'
+    },
+    color: Alloy.CFG.design.header.fontColor
+}
+
+
+".compass": {
+    top: 36,
+    right: 20,
+    width: 46,
+    height: 50
+}
+
+".compassBackground": {
+    image: '/images/compass/compass.png',
+    width: 46,
+    height: 50
+}
+
+"#compassNeedle": {
+    image: '/images/compass/compassNeedle.png',
+    width: 5,
+    height: 32,
+    top: 7,
+    zIndex: 5
+}
+
+// Buttons
+
+"#startSurvey": {
+    top: 230,
+    text: L('surveys.startSurvey')
+}
+
+"#viewGuide": {
+    top: 305,
+    text: L('surveys.viewGuide')
+}
+
+

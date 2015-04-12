@@ -1,0 +1,5 @@
+<Alloy>
+    <View id="button" class="button" onClick="doButtonClick">
+        <Label class="buttonLabel" id="buttonLabel" />
+    </View>
+</Alloy>

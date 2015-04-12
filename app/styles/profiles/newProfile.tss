@@ -1,0 +1,36 @@
+".header": {
+    height: 60,
+    backgroundColor: Alloy.CFG.design.header.backgroundColor,
+    top: 0
+}
+
+".headerTitle": {
+    text: L('profiles.newProfile.title'),
+    top: 30,
+    left: 130,
+    font: {
+        fontWeight: 'bold',
+    },
+    color: Alloy.CFG.design.header.fontColor
+}
+
+".leftNavButton": {
+    width: 100,
+    height: 40,
+    top: 20,
+    left: 0
+}
+
+"#closeWindow": {
+    color: Alloy.CFG.design.header.fontColor,
+    text: L('profiles.newProfile.close'),
+    font: {
+        fontSize: 13,
+    },
+    opacity: 1,
+    left: 10
+}
+
+"ScrollView": {
+    top: 60
+}

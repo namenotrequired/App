@@ -1,0 +1,10 @@
+<Alloy>
+    <Window id="survey">
+       <View class="header">
+            <Label id="headerTitle" class="headerTitle" />
+            <View class="leftNavButton">
+                <Label id="closeWindow" />
+            </View>
+        </View>
+    </Window>
+</Alloy>

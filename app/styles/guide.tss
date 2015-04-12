@@ -1,0 +1,15 @@
+".header": {
+    height: 60,
+    backgroundColor: Alloy.CFG.design.header.backgroundColor,
+    top: 0
+}
+
+".headerTitle": {
+    text: L('guide.title'),
+    top: 30,
+    left: 20,
+    font: {
+        fontWeight: 'bold',
+    },
+    color: Alloy.CFG.design.header.fontColor
+}

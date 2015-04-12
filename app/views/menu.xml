@@ -1,0 +1,30 @@
+<Alloy>
+	<Window role="rightWindow">
+        <ScrollView>
+            <View class="menuItem" id="menuItemSurveys" onClick="onClickSurveys">
+                <Label class="menuItemLabel" id="menuSurveys" />
+            </View>
+
+            <View class="menuItem" id="menuItemProfiles" onClick="onClickProfiles">
+                <Label class="menuItemLabel" id="menuProfiles" />
+            </View>
+
+            <View class="menuItem" id="menuItemGuide" onClick="onClickGuide">
+                <Label class="menuItemLabel" id="menuGuide" />
+            </View>
+
+            <View class="menuItem" id="menuItemSettings" onClick="onClickSettings">
+                <Label class="menuItemLabel" id="menuSettings" />
+            </View>
+
+            <View class="menuItem" id="menuItemMore" onClick="onClickMore">
+                <Label class="menuItemLabel" id="menuMore" />
+            </View>
+
+            <View class="madeBy">
+                <Label class="madeByLabel" />
+                <Label class="versionLabel" />
+            </View>
+        </ScrollView>
+    </Window>
+</Alloy>

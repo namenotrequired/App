@@ -1,0 +1,7 @@
+<Alloy>
+    <Window id="guide">
+         <View class="header">
+            <Label class="headerTitle" />
+        </View>
+    </Window>
+</Alloy>

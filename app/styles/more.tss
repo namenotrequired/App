@@ -1,0 +1,41 @@
+".header": {
+    height: 60,
+    backgroundColor: Alloy.CFG.design.header.backgroundColor,
+    top: 0
+}
+
+".headerTitle": {
+    text: L('more.title'),
+    top: 30,
+    left: 20,
+    font: {
+        fontWeight: 'bold',
+    },
+    color: Alloy.CFG.design.header.fontColor
+}
+
+".content": {
+    top: 60,
+    height: Ti.UI.SIZE
+}
+
+".contentContainer": {
+    top: 0,
+    right: 0,
+    bottom: 25,
+    left: 0,
+    layout: 'vertical'
+}
+
+".contentRow": {
+    height: Ti.UI.SIZE,
+    top: 15,
+    bottom: 15,
+    layout: 'horizontal'
+}
+
+".divider": {
+    top: 15,
+    height: 2,
+    backgroundColor: 'rgba(0,0,0,.05)'
+}

@@ -1,0 +1,21 @@
+<Alloy>
+    <Window id="surveys">
+        <View class="header">
+            <Label class="headerWelcomeTitle" />
+            <Label class="headerCurrentLocationTitle" />
+            <Label id="headerCurrentLocation" />
+            <Label class="headerCurrentSpeedTitle" />
+            <Label id="headerCurrentSpeed" />
+            <Label class="headerCurrentTimeTitle" />
+            <Label id="headerCurrentTime" />
+            <View class="compass" onClick="doClickCompass">
+                <ImageView class="compassBackground" />
+                <ImageView id="compassNeedle" />
+            </View>
+        </View>
+
+        <Require src="components/button" id="startSurvey" onClick="doClickStartSurvey" />
+
+        <Require src="components/button" id="viewGuide" onClick="doClickStartGuide" />
+    </Window>
+</Alloy>

@@ -1,0 +1,10 @@
+<Alloy>
+    <Window id="profiles">
+        <View class="header">
+            <Label id="headerTitle" class="headerTitle" />
+            <View class="rightNavButton" onClick="doClickNewProfile">
+                <Label id="newProfile" />
+            </View>
+        </View>
+    </Window>
+</Alloy>

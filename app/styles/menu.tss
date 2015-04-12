@@ -1,0 +1,41 @@
+"Window": {
+    backgroundColor: '#424242'
+}
+
+"ScrollView": {
+    layout: 'vertical',
+    top: 20
+}
+
+"ScrollView[platform=android]": {
+    scrollType: 'vertical'
+}
+
+".menuItem": {
+    top: 0,
+    height: 60
+}
+
+".menuItemLabel": {
+    color: '#fff'
+}
+
+"#menuSurveys": {
+    text: L('menu.surveys'),
+}
+
+"#menuProfiles": {
+    text: L('menu.profiles'),
+}
+
+"#menuGuide": {
+    text: L('menu.guide'),
+}
+
+"#menuSettings": {
+    text: L('menu.settings'),
+}
+
+"#menuMore": {
+    text: L('menu.more'),
+}

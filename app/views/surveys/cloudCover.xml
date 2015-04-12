@@ -1,0 +1,10 @@
+<Alloy>
+    <Window id="cloudCover">
+       <View class="header">
+            <View class="leftNavButton">
+                <Label id="closeWindow" />
+            </View>
+            <Label id="headerTitle" class="headerTitle" />
+        </View>
+    </Window>
+</Alloy>

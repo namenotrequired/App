@@ -1,0 +1,14 @@
+<Alloy>
+    <Window id="newProfile">
+       <View class="header">
+            <Label id="headerTitle" class="headerTitle" />
+            <View class="leftNavButton" onClick="closeWindow">
+                <Label id="closeWindow" />
+            </View>
+        </View>
+
+        <ScrollView>
+            
+        </ScrollView>
+    </Window>
+</Alloy>

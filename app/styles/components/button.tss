@@ -1,0 +1,17 @@
+".button": {
+    height: 60,
+    borderSize: 2,
+    borderRadius: 2,
+    borderColor: Alloy.CFG.design.colors.defaultBlue,
+    left: 15,
+    right: 15
+}
+
+".buttonLabel": {
+    font: {
+        fontSize: 15,
+        fontWeight: "bold"
+    },
+    color: Alloy.CFG.design.colors.defaultBlue,
+    left: 15
+}

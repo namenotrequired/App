@@ -1,0 +1,65 @@
+".header": {
+    height: 60,
+    backgroundColor: Alloy.CFG.design.header.backgroundColor,
+    top: 0
+}
+
+".headerTitle": {
+    text: L('settings.title'),
+    top: 30,
+    left: 20,
+    font: {
+        fontWeight: 'bold',
+    },
+    color: Alloy.CFG.design.header.fontColor
+}
+
+".content": {
+    top: 60,
+    height: Ti.UI.SIZE
+}
+
+".contentContainer": {
+    top: 0,
+    right: 20,
+    bottom: 25,
+    left: 20,
+    layout: 'vertical'
+}
+
+".settingsRow": {
+    height: 60,
+    top: 0,
+    layout: 'horizontal',
+
+}
+
+".settingsLabel": {
+    width: 190,
+    left: 0,
+    top: 22,
+    font: Alloy.CFG.design.content.defaultFontBold
+}
+
+".settingsSwitch": {
+    right: 0,
+    top: 15,
+    width: 90
+}
+
+".divider": {
+    height: 2,
+    backgroundColor: 'rgba(0,0,0,.05)'
+}
+
+"#settingsInvert": {
+    text: L('settings.invert')
+}
+
+"#settingsHighContrastLabel": {
+    text: L('settings.highContrast')
+}
+
+"#settingsBigFont": {
+    text: L('settings.font')
+}

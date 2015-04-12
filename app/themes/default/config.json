@@ -1,0 +1,22 @@
+{
+    "global": {
+        "design": {
+            "colors": {
+                "defaultBlue": "#57C7DB"
+            },
+            "header": {
+                "fontColor": "#fff",
+                "backgroundColor": "#57C7DB"
+            },
+            "content": {
+                "defaultFont": {
+                    "fontSize": 14
+                },
+                "defaultFontBold": {
+                    "fontSize": 14,
+                    "fontWeight": "bold"
+                }
+            }
+        }
+    }
+}
