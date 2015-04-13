@@ -6,8 +6,8 @@
 
 ".headerTitle": {
     text: L('more.title'),
-    top: 30,
-    left: 20,
+    top: 31,
+    left: 40,
     font: {
         fontWeight: 'bold',
     },

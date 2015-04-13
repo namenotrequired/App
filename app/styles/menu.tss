@@ -2,12 +2,6 @@
     backgroundColor: '#008A99'
 }
 
-".status": {
-    height: 20,
-    top: 0,
-    backgroundColor: '#202121'
-}
-
 "ScrollView": {
     layout: 'vertical',
     top: 20

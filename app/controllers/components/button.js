@@ -17,11 +17,11 @@ if (args.text) {
  * Execute the buttonClick debounce function, trigger click and perform basic animation
  */
 function doButtonClick () {
-    var buttonClick = _.debounce(function buttonClick () {
+    var buttonClick = _.throttle(function buttonClick () {
         $.button.opacity = 0.6;
         _.delay(function () { $.button.opacity = 1; }, 150);
         $.trigger('click');
-    }, 100, true);
+    }, 100);
 
     buttonClick();
 }

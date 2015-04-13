@@ -18,6 +18,14 @@ _.extend($, {
         Alloy.Globals.navigationWindow = $.navigationWindow;
         Alloy.Globals.menu = $.menu;
         $.drawer.open();
+
+        $.drawer.addEventListener('windowDidOpen', function (evt) {
+            Ti.App.fireEvent('menuDidOpen');
+        });
+
+        $.drawer.addEventListener('windowDidClose', function (evt) {
+            Ti.App.fireEvent('menuDidClose');
+        });
     },
 
     /**

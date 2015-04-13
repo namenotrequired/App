@@ -8,7 +8,16 @@
         </View>
 
         <ScrollView>
-            
+            <View class="formRow">
+                <Label class="spotterLabel" />
+                <TextField id="spotter" class="input" />
+            </View>
+            <View class="formRow">
+                <Label class="platformHeightLabel" />
+                <Label id="height" />
+                <Slider id="platformHeight" class="input" onChange="onChangeUpdateHeight" />
+            </View>
+            <Require src="components/button" id="saveProfile" onClick="saveProfile" />
         </ScrollView>
     </Window>
 </Alloy>

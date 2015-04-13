@@ -109,7 +109,7 @@ function compassEventHandler (evt) {
  * @method doClickStartSurvey
  */
 function doClickStartSurvey () {
-    Alloy.createController('surveys/team');
+    Alloy.createController('profiles/newProfile', { flow: 'survey'} );
 }
 
 /**

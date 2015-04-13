@@ -33,6 +33,7 @@ function doClickNewProfile (evt) {
     // Throttle the button press to prevent multiple clicks
     setNewProfileOpacity(0.4);
     _.delay(_.partial(setNewProfileOpacity, 1), 150);
+    console.log('Go time');
     Alloy.createController('profiles/newProfile');
 }
 

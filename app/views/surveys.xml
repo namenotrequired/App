@@ -1,6 +1,8 @@
 <Alloy>
     <Window id="surveys">
         <View class="header">
+            <View class="status" />
+            <Require src="components/menuButton" id="menuButton" />
             <Label class="headerWelcomeTitle" />
             <Label class="headerCurrentLocationTitle" />
             <Label id="headerCurrentLocation" />
@@ -15,7 +17,7 @@
         </View>
 
         <Require src="components/button" id="startSurvey" onClick="doClickStartSurvey" />
-
+        <Label class="or" />
         <Require src="components/button" id="viewGuide" onClick="doClickStartGuide" />
     </Window>
 </Alloy>

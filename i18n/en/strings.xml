@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
     <!-- Surveys -->
-    <string name="surveys.welcomeTitle">WELCOME TO\nTHE OCEAN CLEANUP\nVISUAL SURVEY APP</string>
+    <string name="surveys.welcomeTitle">Visual Survey App</string>
     <string name="surveys.currentLocationTitle">Current location:</string>
     <string name="surveys.currentSpeed">Speed:</string>
     <string name="surveys.currentTime">Time:</string>
-    <string name="surveys.startSurvey">START A NEW SURVEY</string>
-    <string name="surveys.viewGuide">VIEW THE GUIDE</string>
+    <string name="surveys.startSurvey">Start a new survey</string>
+    <string name="surveys.or">or</string>
+    <string name="surveys.viewGuide">View our guide</string>
     <!-- Menu -->
     <string name="menu.surveys">Surveys</string>
     <string name="menu.profiles">Profiles</string>
@@ -17,8 +18,11 @@
     <string name="profiles.title">Profiles</string>
     <string name="profiles.newProfile">New profile</string>
     <!-- New Profile -->
-    <string name="profiles.newProfile.title">NEW USER</string>
-     <string name="profiles.newProfile.close">Close</string>
+    <string name="profiles.newProfile.title">Create Spotter Account</string>
+    <string name="profiles.newProfile.close">Close</string>
+    <string name="profiles.newProfile.spotter">Spotter</string>
+    <string name="profiles.newProfile.platformHeight">Platform height</string>
+    <string name="profiles.newProfile.save">Save</string>
     <!-- Profiles -->
     <string name="guide.title">GUIDE</string>
     <string name="guide.back">back</string>

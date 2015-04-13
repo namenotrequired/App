@@ -1,13 +1,19 @@
 ".header": {
     height: 200,
-    backgroundColor: Alloy.CFG.design.header.backgroundColor,
+    backgroundGradient: {
+        type: 'linear',
+        colors: ['#56C2D2', '#45AFBF'],
+        startPoint: { x: '50%', y: 0 },
+        endPoint: { x: '50%', y: '100%' },
+        backFillStart: true
+    },
     top: 0
 }
 
 ".headerWelcomeTitle": {
     text: L('surveys.welcomeTitle'),
-    top: 30,
-    left: 20,
+    top: 31,
+    left: 40,
     font: {
         fontWeight: 'bold',
     },
@@ -100,12 +106,23 @@
 // Buttons
 
 "#startSurvey": {
-    top: 230,
+    top: 220,
     text: L('surveys.startSurvey')
 }
 
+".or": {
+    top: 280,
+    text: L('surveys.or'),
+    height: 10,
+    font: {
+        fontSize: 12,
+        fontWeight: "normal"
+    },
+    color: '#D8D8D8'
+}
+
 "#viewGuide": {
-    top: 305,
+    top: 310,
     text: L('surveys.viewGuide')
 }
 

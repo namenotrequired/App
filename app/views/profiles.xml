@@ -1,6 +1,8 @@
 <Alloy>
     <Window id="profiles">
         <View class="header">
+            <View class="status" />
+            <Require src="components/menuButton" id="menuButton" />
             <Label id="headerTitle" class="headerTitle" />
             <View class="rightNavButton" onClick="doClickNewProfile">
                 <Label id="newProfile" />

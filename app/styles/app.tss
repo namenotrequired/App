@@ -7,3 +7,9 @@
 "Window": {
     backgroundColor: "#fff"
 }
+
+".status": {
+    height: 20,
+    top: 0,
+    backgroundColor: '#202121'
+}

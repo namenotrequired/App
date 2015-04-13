@@ -1,0 +1,12 @@
+"#menuContainer": {
+    width: 40,
+    height: 40,
+    top: 20,
+    left: 0
+}
+
+"#menuIcon": {
+    image: '/images/navigation/menuIcon.png',
+    width: 19,
+    height: 12
+}

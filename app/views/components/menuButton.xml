@@ -1,0 +1,5 @@
+<Alloy>
+    <View id="menuContainer" onClick="doClickMenu">
+        <ImageView id="menuIcon" />
+    </View>
+</Alloy>
