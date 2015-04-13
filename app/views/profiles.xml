@@ -1,6 +1,9 @@
 <Alloy>
     <Window id="profiles">
         <View class="header">
+            <View class="leftNavButton" onClick="doClickMenu">
+                <ImageView class="menu" />
+            </View>
             <Label id="headerTitle" class="headerTitle" />
             <View class="rightNavButton" onClick="doClickNewProfile">
                 <Label id="newProfile" />

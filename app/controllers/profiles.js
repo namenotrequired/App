@@ -44,3 +44,7 @@ function doClickNewProfile (evt) {
 function setNewProfileOpacity (opacity) {
     $.newProfile.opacity = opacity;
 }
+
+function doClickMenu () {
+    
+}

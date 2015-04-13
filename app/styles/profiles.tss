@@ -7,11 +7,25 @@
 ".headerTitle": {
     text: L('profiles.title'),
     top: 30,
-    left: 20,
+    left: 40,
+    right: 40,
     font: {
         fontWeight: 'bold',
     },
     color: Alloy.CFG.design.header.fontColor
+}
+
+".leftNavButton": {
+    width: 40,
+    height: 40,
+    top: 20,
+    left: 0
+}
+
+".menu": {
+    image: '/images/navigation/menuIcon.png',
+    width: 19,
+    height: 12
 }
 
 ".rightNavButton": {
