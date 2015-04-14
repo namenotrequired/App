@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
+    <!-- General -->
+    <string name="back">back</string>
     <!-- Surveys -->
     <string name="surveys.welcomeTitle">Visual Survey App</string>
     <string name="surveys.currentLocationTitle">Current location:</string>
@@ -8,6 +10,14 @@
     <string name="surveys.startSurvey">Start a new survey</string>
     <string name="surveys.or">or</string>
     <string name="surveys.viewGuide">View our guide</string>
+    <!-- Cloud Cover -->
+    <string name="surveys.cloudCover.subTitle">What is the current</string>
+    <string name="surveys.cloudCover.title">Cloud coverage</string>
+    <!-- Survey -->
+    <string name="surveys.survey.title">Survey</string>
+    <!-- Wind speed -->
+    <string name="surveys.windSpeed.subTitle">What is the current</string>
+    <string name="surveys.windSpeed.title">Wind Speed</string>
     <!-- Menu -->
     <string name="menu.surveys">Surveys</string>
     <string name="menu.profiles">Profiles</string>

@@ -2,9 +2,7 @@
     <Window id="more">
          <View class="header">
             <Label class="headerTitle" />
-            <View id="backButton" onClick="onClickBackButton">
-                <Label id="headerBack" />
-            </View>
+            <Require src="components/backButton" id="backButton" onClick="onClickBackButton" />
         </View>
 
         <ScrollView id="content" />

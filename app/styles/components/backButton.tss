@@ -1,0 +1,14 @@
+".backButtonContainer": {
+    top: 20,
+    left: 0,
+    width: 60,
+    height: 40
+}
+
+".backButton": {
+    text: L('back'),
+    font: {
+        fontWeight: 'bold',
+    },
+    color: Alloy.CFG.design.header.fontColor
+}

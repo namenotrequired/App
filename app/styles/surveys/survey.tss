@@ -1,4 +1,15 @@
+".header": {
+    height: 60,
+    backgroundColor: Alloy.CFG.design.header.backgroundColor,
+    top: 0
+}
 
-".container" : {
-  
+".headerTitle": {
+    text: L('surveys.survey.title'),
+    top: 31,
+    left: 40,
+    font: {
+        fontWeight: 'bold',
+    },
+    color: Alloy.CFG.design.header.fontColor
 }

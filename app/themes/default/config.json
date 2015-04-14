@@ -2,7 +2,9 @@
     "global": {
         "design": {
             "colors": {
-                "defaultBlue": "#57C7DB"
+                "defaultBlue": "#00cde3",
+                "mediumBlue": "#008a99",
+                "darkBlue": "006a76"
             },
             "header": {
                 "fontColor": "#fff",

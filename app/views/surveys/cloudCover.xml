@@ -1,9 +1,8 @@
 <Alloy>
     <Window id="cloudCover">
-       <View class="header">
-            <View class="leftNavButton">
-                <Label id="closeWindow" />
-            </View>
+        <View class="header">
+            <View class="status" />
+            <Require src="components/backButton" id="backButton" />
             <Label id="headerTitle" class="headerTitle" />
         </View>
     </Window>
