@@ -10,13 +10,13 @@
             <View class="grid">
                 <View class="gridRow">
                     <View class="gridRowLeft">
-                        <View class="gridIconContainer">
+                        <View class="gridIconContainer" id="cc0" onClick="onClickGrid">
                             <ImageView id="cc0Icon" class="gridIcon" />
                             <Label id="cc0Label" class="gridLabel" />
                         </View>
                     </View>
                     <View class="gridRowRight">
-                        <View class="gridIconContainerRight">
+                        <View class="gridIconContainerRight" id="cc0" onClick="onClickGrid">
                             <ImageView id="cc1Icon" class="gridIcon" />
                             <Label id="cc1Label" class="gridLabel" />
                         </View>
@@ -25,13 +25,13 @@
 
                 <View class="gridRow">
                     <View class="gridRowLeft">
-                        <View class="gridIconContainer">
+                        <View class="gridIconContainer" id="cc0" onClick="onClickGrid">
                             <ImageView id="cc2Icon" class="gridIcon" />
                             <Label id="cc2Label" class="gridLabel" />
                         </View>
                     </View>
                     <View class="gridRowRight">
-                        <View class="gridIconContainerRight">
+                        <View class="gridIconContainerRight" id="cc0" onClick="onClickGrid">
                             <ImageView id="cc3Icon" class="gridIcon" />
                             <Label id="cc3Label" class="gridLabel" />
                         </View>
@@ -40,13 +40,13 @@
 
                 <View class="gridRow">
                     <View class="gridRowLeft">
-                        <View class="gridIconContainer">
+                        <View class="gridIconContainer" id="cc0" onClick="onClickGrid">
                             <ImageView id="cc4Icon" class="gridIcon" />
                             <Label id="cc4Label" class="gridLabel" />
                         </View>
                     </View>
                     <View class="gridRowRight">
-                        <View class="gridIconContainerRight">
+                        <View class="gridIconContainerRight" id="cc0" onClick="onClickGrid">
                             <ImageView id="cc5Icon" class="gridIcon" />
                             <Label id="cc5Label" class="gridLabel" />
                         </View>
@@ -55,13 +55,13 @@
 
                  <View class="gridRow">
                     <View class="gridRowLeft">
-                        <View class="gridIconContainer">
+                        <View class="gridIconContainer" id="cc0" onClick="onClickGrid">
                             <ImageView id="cc6Icon" class="gridIcon" />
                             <Label id="cc6Label" class="gridLabel" />
                         </View>
                     </View>
                     <View class="gridRowRight">
-                        <View class="gridIconContainerRight">
+                        <View class="gridIconContainerRight" id="cc0" onClick="onClickGrid">
                             <ImageView id="cc7Icon" class="gridIcon" />
                             <Label id="cc7Label" class="gridLabel" />
                         </View>
