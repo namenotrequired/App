@@ -1,8 +1,7 @@
  <Alloy>
     <Window id="settings">
          <View class="header">
-            <View class="status" />
-            <Require src="components/menuButton" id="menuButton" />
+              <Require src="components/menuButton" id="menuButton" />
             <Label class="headerTitle" />
         </View>
 

@@ -9,15 +9,6 @@ var log = require('utils/log');
 // STATE PRESURVEY or POSTSURVEY
 var STATE = 'PRESURVEY';
 
-var windSpeedData = [
-    {
-        id: 0,
-        icon: '/images/icons/windSpeed/windSpeed0.png',
-        valueLabel: '0 - 2',
-        captionLabel: 'Knots'
-    },
-];
-
 _.extend($, {
     /**
      * @constructor
@@ -25,6 +16,7 @@ _.extend($, {
      * @param {Object} config Controller configuration
      */
     construct: function(config) {
+        //$.grid.setData(require('data/windSpeed'));
         require('windowManager').openWinWithBack($.getView());
     },
 

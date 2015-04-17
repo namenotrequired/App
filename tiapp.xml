@@ -10,7 +10,7 @@
     <fullscreen>false</fullscreen>
     <navbar-hidden>false</navbar-hidden>
     <analytics>true</analytics>
-    <guid></guid>
+    <guid>12978bfa-ffbb-4466-94fe-a702ffa83688</guid>
     <property name="ti.ui.defaultunit" type="string">dp</property>
     <ios>
         <plist>
@@ -29,6 +29,8 @@
                 <key>UIRequiresPersistentWiFi</key>
                 <false/>
                 <key>UIPrerenderedIcon</key>
+                <false/>
+                <key>UIViewControllerBasedStatusBarAppearance</key>
                 <false/>
                 <key>UIStatusBarHidden</key>
                 <false/>
@@ -54,6 +56,7 @@
     </mobileweb>
     <modules>
        <module platform="iphone">dk.napp.drawer</module>
+       <module platform="iphone">com.apaladini.statusbar</module>
     </modules>
         <deployment-targets>
             <target device="android">true</target>

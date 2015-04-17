@@ -1,7 +1,6 @@
 <Alloy>
     <Window id="surveys">
         <View class="header">
-            <View class="status" />
             <Require src="components/menuButton" id="menuButton" />
             <Label class="headerWelcomeTitle" />
             <Label class="headerCurrentLocationTitle" />

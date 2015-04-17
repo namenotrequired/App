@@ -3,8 +3,10 @@
  *
  * @class Controllers.menu
  * @uses utils.log
+ * @uses module.statusbar
  */
 var log = require('utils/log');
+
 
 // Internal variables
 var activeItem;

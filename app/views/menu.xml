@@ -1,6 +1,5 @@
 <Alloy>
 	<Window role="leftWindow">
-        <View class="status" />
         <ScrollView>
             <View class="menuItem" id="menuItemSurveys" onClick="onClickSurveys">
                 <ImageView class="menuIcon" id="menuIconSurveys" />
