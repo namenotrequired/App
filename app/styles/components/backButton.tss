@@ -6,9 +6,8 @@
 }
 
 ".backButton": {
-    text: L('back'),
-    font: {
-        fontWeight: 'bold',
-    },
-    color: Alloy.CFG.design.header.fontColor
+        height: 17,
+    width: 17,
+    image: 'images/navigation/back.png',
+    left: 10
 }

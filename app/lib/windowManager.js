@@ -49,6 +49,10 @@ var WM = module.exports = {
         }
     },
 
+    openWinInNewWindow: function(win, openProperties) {
+        
+    },
+
     openWinWithBack: function(win, openProperties) {
         if(OS_ANDROID) {
             win.addEventListener('open', doOpenWindowWithBack);

@@ -1,1 +1,4 @@
-var args = arguments[0] || {};
+function onClickCloseButton () {
+    // @todo debounce / throttle
+    $.trigger('click');
+}

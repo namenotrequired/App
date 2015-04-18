@@ -16,7 +16,8 @@ _.extend($, {
      * @param {Object} config Controller configuration
      */
     construct: function(config) {
-        $.getView().open();
+        $.grid.setData(require('data/cloudCover'));
+        require('windowManager').openWinWithBack($.getView());
     },
 
     /**
@@ -26,3 +27,12 @@ _.extend($, {
     destruct: function() {
     }
 });
+
+function onClickBackButton () {
+    $.getView().close({animated: true});
+}
+
+function onClickGrid (evt) {
+    log.info('[windSpeed] Click on grid', evt);
+    Alloy.createController('surveys/survey');
+}

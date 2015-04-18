@@ -2,9 +2,7 @@
     <Window id="newProfile">
        <View class="header">
             <Label id="headerTitle" class="headerTitle" />
-            <View class="leftNavButton" onClick="closeWindow">
-                <Label id="closeWindow" />
-            </View>
+            <Require src="components/closeButton" onClick="closeWindow" />
         </View>
 
         <ScrollView>

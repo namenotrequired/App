@@ -8,8 +8,37 @@ function setData (data) {
         return;
     }
 
-    data.pop
+    var counter = 0;
+    var row;
 
+    _.each(data, function (dataObject, key) {
+        counter++;
+
+        var even = counter % 2;
+        if (even) {
+            row = Titanium.UI.createView({
+                top: 0,
+                layout: 'horizontal',
+                height: 100,
+                bottom: 20,
+            });
+        }
+
+        var gridComponent = Alloy.createController('components/gridComponent', {gridComponentData: dataObject}).getView();
+        gridComponent.addEventListener('click', onClickGridComponent);
+        row.add(gridComponent);
+
+        if (!even || key + 1 === data.length) {
+            $.grid.add(row);
+            row = false;
+        }
+    });
+
+}
+
+function onClickGridComponent (evt) {
+    console.log('*&*&*&*&*', evt);
+    $.trigger('click', evt);
 }
 
 exports.setData = setData;

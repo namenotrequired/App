@@ -1,4 +1,13 @@
+".closeButtonContainer": {
+    top: 20,
+    left: 0,
+    width: 60,
+    height: 40
+}
 
-".container" : {
-  
+".closeButton": {
+    height: 15,
+    width: 15,
+    image: 'images/navigation/menuIconClose.png',
+    left: 10
 }

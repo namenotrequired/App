@@ -1,15 +1,102 @@
 ".header": {
-    height: 60,
-    backgroundColor: Alloy.CFG.design.header.backgroundColor,
+    height: 120,
+    backgroundGradient: {
+        type: 'linear',
+        colors: ['#56C2D2', '#45AFBF'],
+        startPoint: { x: '50%', y: 0 },
+        endPoint: { x: '50%', y: '100%' },
+        backFillStart: true
+    },
     top: 0
 }
 
 ".headerTitle": {
     text: L('surveys.survey.title'),
     top: 31,
-    left: 40,
+    left: 60,
     font: {
         fontWeight: 'bold',
     },
     color: Alloy.CFG.design.header.fontColor
+}
+
+".timerContainer": {
+    top: 55,
+    height: Ti.UI.SIZE
+}
+
+".timer": {
+    text: '60:00',
+    font: {
+        fontWeight: 'bold',
+        fontSize: 40
+    },
+    color: '#fff',
+    top: 0
+}
+
+".startTime": {
+    font: {
+        fontSize: 11
+    },
+    color: '#fff',
+    top: 40,
+    opacity: 0
+}
+
+"#startSurveyContainer": {
+    top: 136,
+    height: Ti.UI.SIZE
+}
+
+"#sightingContainer": {
+    top: 136,
+    visible: false,
+    height: 0
+}
+
+"#finishSurveyContainer": {
+    top: 136,
+    visible: false,
+    height: 0
+}
+
+"#startSurvey": {
+    top: 0,
+    text: L('surveys.survey.startSurvey')
+}
+
+"#addSighting": {
+    top: 0,
+    text: L('surveys.survey.addSighting')
+}
+
+"#finishSurvey": {
+    top: 0,
+    text: L('surveys.survey.finishSurvey')
+}
+
+".content": {
+    top: 210,
+    height: 400,
+    backgroundColor: '#F0F0F0'
+}
+
+"#preSurvey": {
+    height: Ti.UI.SIZE,
+    top: 50,
+    bottom: 50,
+    left: 25,
+    right: 25
+}
+
+".preSurveyMessage": {
+    color: "#B9B9B9",
+    text: L('surveys.survey.preSurveyMessage'),
+    height: Ti.UI.SIZE,
+    font: {
+        fontWeight: 'normal',
+        fontSize: 12
+    },
+    textAlign: 'center'
 }

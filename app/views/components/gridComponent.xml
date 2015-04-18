@@ -1,0 +1,9 @@
+<Alloy>
+    <View class="gridComponent">
+            <View class="gridIconContainer" onClick="onClickGrid">
+                <ImageView id="icon" class="gridIcon" />
+                <Label id="value" class="gridValue" />
+                <Label id="caption" class="gridCaption" />
+            </View>
+        </View>
+</Alloy>
