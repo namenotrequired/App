@@ -33,6 +33,6 @@ function onClickBackButton () {
 }
 
 function onClickGrid (evt) {
-    log.info('[windSpeed] Click on grid', evt);
+    log.info('[windspeed] Click on grid', evt);
     Alloy.createController('surveys/survey');
 }

@@ -64,6 +64,6 @@ function saveProfile (evt) {
     if (STATE === 'SURVEY') {
         //@todo: create a new survey model
         //@todo: Do some checking on the data!
-        Alloy.createController('surveys/windSpeed', { state: 'PRESURVEY'} );
+        Alloy.createController('surveys/windspeed', { state: 'PRESURVEY'} );
     }
 }

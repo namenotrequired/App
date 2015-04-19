@@ -1,7 +1,7 @@
 /**
- * Controller for surveys windSpeed
+ * Controller for surveys windspeed
  *
- * @class Controllers.surveys.windSpeed
+ * @class Controllers.surveys.windspeed
  * @uses utils.log
  */
 var log = require('utils/log');
@@ -16,7 +16,7 @@ _.extend($, {
      * @param {Object} config Controller configuration
      */
     construct: function(config) {
-        $.grid.setData(require('data/windSpeed'));
+        $.grid.setData(require('data/windspeed'));
         require('windowManager').openWinWithBack($.getView());
     },
 
@@ -33,6 +33,6 @@ function onClickBackButton () {
 }
 
 function onClickGrid (evt) {
-    log.info('[windSpeed] Click on grid', evt);
+    log.info('[windspeed] Click on grid', evt);
     Alloy.createController('surveys/cloudCover');
 }

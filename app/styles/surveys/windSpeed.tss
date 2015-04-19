@@ -5,7 +5,7 @@
 }
 
 ".headerTitle": {
-    text: L('surveys.windSpeed.title'),
+    text: L('surveys.windspeed.title'),
     top: 31,
     left: 60,
     font: {
